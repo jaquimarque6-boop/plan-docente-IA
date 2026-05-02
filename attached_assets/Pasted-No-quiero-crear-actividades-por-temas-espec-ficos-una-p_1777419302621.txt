@@ -1,0 +1,82 @@
+No quiero crear actividades por temas específicos una por una.
+
+Necesito corregir el GENERADOR UNIVERSAL DE FICHAS.
+
+Problema:
+Solo funciona bien cuando el tema tiene plantilla especial, como “vocales”.
+Pero cuando el tema es cualquier otro concepto, por ejemplo “fotosíntesis”, el sistema repite la palabra del tema y arma actividades vacías.
+
+Objetivo:
+Crear un generador universal que sirva para cualquier tema, sin cargar plantillas tema por tema.
+
+Reglas del generador universal:
+
+1. Debe tomar:
+- tema
+- materia
+- grado
+- nivel
+
+2. Antes de armar actividades, debe construir un “mini banco semántico” del tema:
+- palabras relacionadas
+- acciones
+- partes o elementos
+- ejemplos
+- no ejemplos razonables
+- frases simples sobre el concepto
+
+3. Ese banco NO puede repetir solo el título del tema.
+Ejemplo con fotosíntesis:
+palabras relacionadas: plantas, luz solar, agua, aire, hojas, raíces, oxígeno, alimento
+acciones: absorber, fabricar, liberar, recibir, crecer
+no ejemplos: animales, piedras, juguetes
+
+4. Con ese banco debe generar actividades universales:
+- verdadero o falso
+- completar oraciones
+- unir con flechas
+- ordenar pasos
+- responder preguntas
+- dibujar y rotular
+- clasificar ejemplos y no ejemplos
+
+5. Las actividades deben adaptarse al grado:
+- 1° y 2°: frases cortas, palabras simples, consignas breves, mucho apoyo visual
+- 3° y 4°: oraciones claras, vocabulario escolar, relaciones simples
+- 5° y 6°: explicación, causa-consecuencia, comparación y justificación
+
+6. Si el sistema no puede construir un banco semántico real, debe usar una estrategia segura:
+- no inventar palabras absurdas
+- no repetir el título
+- pedir al docente 3 palabras clave opcionales
+- o generar una ficha de exploración: “qué sabemos / qué observamos / qué aprendimos”
+
+7. Eliminar el fallback actual que genera:
+- “Fotosíntesis / Fotosíntesis / Fotosíntesis”
+- “la resta / el teatro / la Luna”
+- “___ es el tema principal”
+- “Aprender sobre X nos ayuda a...”
+
+8. No tocar las plantillas que ya funcionan, como vocales.
+Solo reemplazar el fallback universal malo.
+
+9. Caso de prueba:
+Materia: Biología
+Grado: 3°
+Tema: Fotosíntesis
+
+Debe salir una ficha coherente aunque no exista una plantilla específica de fotosíntesis.
+
+10. Caso de prueba 2:
+Materia: Ciencias Sociales
+Grado: 4°
+Tema: inmigración
+
+Debe salir una ficha coherente con palabras relacionadas como personas, familias, países, viaje, cultura, trabajo, comunidad, costumbres.
+
+11. Caso de prueba 3:
+Materia: Matemática
+Grado: 2°
+Tema: sumas con llevadas
+
+Debe salir práctica concreta con cuentas, pasos y resolución, no teoría.

@@ -1,0 +1,99 @@
+Ajustar la lógica de generación de contenidos educativos SIN modificar la estructura de la app, diseño ni funciones existentes.
+
+Objetivo:
+Mejorar la calidad pedagógica de lo generado, evitando respuestas genéricas y asegurando que el contenido se adapte correctamente al tipo de salida seleccionado.
+
+Reglas obligatorias de generación:
+
+1. PRIORIDAD PRINCIPAL:
+El campo "tipo de salida" (qué necesitás generar) define el formato final SIEMPRE.
+
+- Si es "Planificación / secuencia didáctica":
+  → Generar clase completa estructurada (inicio, desarrollo, cierre)
+  → Con actividades concretas, no genéricas
+
+- Si es "Actividad específica":
+  → Generar SOLO una actividad aplicable en clase
+  → Con instrucciones claras, ejemplo y posible resolución
+  → Sin desarrollo teórico largo
+
+- Si es "Instrumento de evaluación":
+  → Generar evaluación concreta (preguntas, consignas, criterios)
+  → No incluir explicación tipo clase
+
+- Si es "Clase puntual detallada":
+  → Clase completa pero enfocada en UNA sesión
+  → Actividades prácticas paso a paso
+
+---
+
+2. TIPO DE CLASE (segundo nivel de decisión):
+
+Modificar el enfoque según:
+
+- "Presentación de contenido nuevo":
+  → Incluir breve explicación + ejemplo + actividad inicial
+
+- "Práctica y consolidación":
+  → Priorizar ejercicios, aplicación y repetición guiada
+
+- "Taller / trabajo grupal":
+  → Actividades colaborativas, consignas abiertas
+
+- "Repaso y revisión":
+  → Actividades de recuperación de saberes
+
+- "Evaluación / cierre":
+  → Actividades evaluativas, sin enseñanza nueva
+
+---
+
+3. TEMA (MUY IMPORTANTE):
+
+El tema debe tratarse como CONCEPTO PEDAGÓGICO, no como palabra suelta.
+
+- Desarrollarlo con contenido real
+- Incluir ejemplos concretos
+- Adaptarlo a la materia automáticamente
+- Evitar frases genéricas tipo "trabajar sobre el tema"
+
+Ejemplo:
+NO: "actividad sobre sustantivos"
+SÍ: "clasificación de sustantivos comunes y propios en oraciones reales"
+
+---
+
+4. ADAPTACIÓN POR GRADO Y NIVEL:
+
+- Ajustar lenguaje y complejidad automáticamente
+- Si nivel es bajo → más guiado
+- Si nivel es alto → más autonomía
+
+---
+
+5. ACTIVIDADES (CLAVE):
+
+Todas deben incluir:
+- Consigna clara
+- Ejemplo concreto
+- Variante más simple
+- Variante más compleja
+- Material listo para usar en clase (cuaderno, oral, grupal, etc.)
+
+Evitar:
+- Actividades genéricas
+- Frases vacías
+- Explicaciones largas sin aplicación
+
+---
+
+6. FORMATO:
+
+Mantener el formato actual de la app.
+NO cambiar estructura HTML ni funciones.
+Solo mejorar el contenido generado.
+
+---
+
+Resultado esperado:
+Contenido claro, aplicable directamente en el aula, específico según materia, grado y tipo de clase, sin genericidad.
