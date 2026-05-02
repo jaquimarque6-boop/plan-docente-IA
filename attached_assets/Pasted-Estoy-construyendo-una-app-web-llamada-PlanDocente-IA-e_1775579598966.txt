@@ -1,0 +1,65 @@
+Estoy construyendo una app web llamada PlanDocente IA en un archivo index.html. Ya existe una pantalla de inicio simple, un generador de planificaciones que funciona, exportación a PDF, copia de texto y lógica básica por materia, grado y tema.
+
+Quiero avanzar en la lógica del sistema para que deje de ser solo un generador y empiece a ser una herramienta docente más completa.
+
+Objetivo general:
+Agregar una estructura simple pero funcional para trabajar con:
+- Escuelas
+- Cursos
+- Alumnos
+- Informes por alumno
+- Registro de clase
+
+Prioridades:
+1. Crear una estructura básica para Escuelas
+2. Permitir crear Cursos dentro de una escuela
+3. Permitir cargar Alumnos dentro de un curso
+4. Preparar una sección de Informes por alumno
+5. Preparar una sección de Registro de clase para guardar observaciones después de cada clase
+
+Quiero que el sistema mantenga una interfaz simple y clara, sin romper la generación de planificaciones actual.
+
+Necesidades funcionales:
+- Poder registrar una escuela con datos básicos
+- Poder crear cursos asociados a una escuela
+- Poder cargar alumnos dentro de cada curso
+- Poder seleccionar un curso y ver sus alumnos
+- Poder registrar observaciones o notas breves de una clase
+- Poder generar un borrador de informe por alumno a partir de observaciones
+- Dejar preparada la estructura para en el futuro usar audio o transcripción de clase
+
+Importante:
+- No quiero una app compleja ni muchas pantallas rotas
+- Quiero una estructura simple, usable y escalable
+- Mantener lo que ya funciona
+- No duplicar código
+- No borrar funciones existentes salvo que sea estrictamente necesario y lo expliques
+
+Quiero que propongas una implementación simple basada en:
+- HTML
+- CSS
+- JavaScript
+- almacenamiento local básico si hace falta (por ejemplo localStorage)
+
+Quiero que me respondas así:
+
+1. Propuesta general de la nueva estructura del sistema
+2. Qué secciones nuevas conviene agregar al home
+3. Qué HTML agregar o reemplazar
+4. Qué CSS agregar
+5. Qué JavaScript agregar
+6. Dónde pegar cada bloque exactamente
+7. Qué parte conviene hacer primero para no romper nada
+
+Además:
+- Priorizá una experiencia tipo sistema docente
+- Hacé que el home quede organizado con opciones como:
+  - Planificaciones
+  - Cursos
+  - Alumnos
+  - Informes
+  - Registro de clase
+- Si alguna sección todavía no queda completa, dejala preparada con estructura base
+
+Quiero empezar por una primera versión mínima pero funcional de:
+Escuela + Curso + Alumnos + Registro de clase + Informes por alumno.

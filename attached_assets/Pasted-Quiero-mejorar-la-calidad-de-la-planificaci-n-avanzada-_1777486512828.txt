@@ -1,0 +1,93 @@
+Quiero mejorar la calidad de la planificación avanzada.
+
+Problema actual:
+El sistema genera correctamente la estructura, pero el contenido es genérico, repetitivo y poco específico.
+Parece generado por plantilla y no por IA.
+
+Objetivo:
+Que la planificación avanzada utilice IA real y genere contenido específico, contextualizado y no genérico.
+
+---
+
+CAMBIOS OBLIGATORIOS:
+
+1. El contenido debe ser completamente dinámico, no usar textos fijos ni plantillas repetidas.
+
+2. Cada planificación debe:
+- variar vocabulario
+- incluir ejemplos concretos
+- usar situaciones reales del aula
+- proponer actividades originales (no genéricas)
+
+3. Adaptación por grado:
+
+PRIMARIA:
+- lenguaje simple
+- actividades concretas (juegos, imágenes, oralidad, trabajo en cuaderno)
+- ejemplos cotidianos (familia, escuela, objetos conocidos)
+
+SECUNDARIA:
+- lenguaje más técnico
+- actividades de análisis, debate, producción escrita
+- mayor profundidad conceptual
+
+---
+
+4. Actividades:
+NO usar frases genéricas como:
+"completar", "reflexionar", "trabajar en clase"
+
+SÍ usar:
+- consignas completas
+- ejemplos concretos
+- materiales sugeridos
+- instrucciones paso a paso
+
+Ejemplo correcto:
+"Entregar una ficha con 10 palabras (casa, elefante, iglesia...) y pedir a los alumnos que rodeen las vocales con color rojo. Luego escribir 3 palabras nuevas que comiencen con cada vocal."
+
+---
+
+5. Contexto argentino:
+
+Las planificaciones deben incluir:
+- referencias al aula real
+- uso de cuaderno, carpeta, pizarrón
+- dinámicas grupales típicas
+- vocabulario docente real
+
+---
+
+6. Múltiples clases:
+
+Cada clase debe ser distinta y progresiva:
+Clase 1 → introducción
+Clase 2 → práctica guiada
+Clase 3 → aplicación
+Clase 4 → integración/evaluación
+
+---
+
+7. Evitar contenido genérico tipo:
+"El docente explicará..."
+"Los alumnos trabajarán..."
+
+Reemplazar por acciones concretas y detalladas.
+
+---
+
+8. Mantener estructura actual, pero mejorar contenido con IA.
+
+---
+
+TEST:
+
+Tema: vocales
+Grado: 1° primaria
+Resultado esperado:
+Actividades concretas, con palabras reales, consignas claras y progresión entre clases.
+
+---
+
+Agregar log:
+console.log("[IA] planificación avanzada ahora usa contenido dinámico")
